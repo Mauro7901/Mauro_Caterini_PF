@@ -1,0 +1,252 @@
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git add .
+warning: in the working copy of 'css/style.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Items_venta.html
+        new file:   Principal.html
+        new file:   Sign_up.html
+        new file:   SobreNosotros.html
+        new file:   assets/Articulos/BrokenHeart.png
+        new file:   assets/Articulos/FaroTshirt.png
+        new file:   assets/Articulos/Hoddieblanco.png
+        new file:   assets/Articulos/Jacket.png
+        new file:   assets/Articulos/Jumper.png
+        new file:   assets/Articulos/OrangeJacket.png
+        new file:   assets/Articulos/RedShirt.png
+        new file:   assets/Articulos/Shirt.png
+        new file:   assets/Articulos/Shorts.png
+        new file:   assets/Articulos/Skirt.png
+        new file:   assets/Articulos/Sweater.png
+        new file:   assets/Articulos/T-Shirt.png
+        new file:   assets/Articulos/Trousers.png
+        new file:   assets/Articulos/creativeTshit.png
+        new file:   assets/Facebook.png
+        new file:   assets/Fondo.jpg
+        new file:   assets/Inicio/Snowflake.png
+        new file:   assets/Inicio/winterguy.png
+        new file:   assets/Instagram.png
+        new file:   assets/Microsoft Outlook.png
+        new file:   assets/Remerablanca.png
+        new file:   assets/Sobre nosotros/HombrePosandoAuto.png
+        new file:   assets/Sobre nosotros/HotelRemeraSN.png
+        new file:   assets/Sobre nosotros/blancaBasicaSobreN.png
+        new file:   assets/Sobre nosotros/camperasinvierno.png
+        new file:   assets/favicon_io/android-chrome-192x192.png
+        new file:   assets/favicon_io/android-chrome-512x512.png
+        new file:   assets/favicon_io/apple-touch-icon.png
+        new file:   assets/favicon_io/favicon-16x16.png
+        new file:   assets/favicon_io/favicon.ico
+        new file:   assets/favicon_io/faviconn.png
+        new file:   assets/favicon_io/site.webmanifest
+        new file:   assets/shopkart.png
+        new file:   css/style.css
+        new file:   css/style.css.map
+        new file:   log_In.html
+        new file:   package-lock.json
+        new file:   package.json
+        new file:   scss/base/_reset.scss
+        new file:   scss/base/_typo.scss
+        new file:   scss/components/_bootstrap.scss
+        new file:   scss/components/_botones.scss
+        new file:   scss/layout/_footer.scss
+        new file:   scss/layout/_header.scss
+        new file:   scss/layout/_login.scss
+        new file:   scss/layout/_main-a.scss
+        new file:   scss/layout/_signup.scss
+        new file:   scss/layout/_sobrenosotros.scss
+        new file:   scss/layout/_ventas.scss
+        new file:   scss/style.scss
+        new file:   scss/utilities/_mixins.scss
+        new file:   scss/utilities/_mobilefirst.scss
+        new file:   scss/utilities/_variables.scss
+
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git commit -m "Sass"
+[master (root-commit) f7f7a1e] Sass
+ 58 files changed, 3749 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Items_venta.html
+ create mode 100644 Principal.html
+ create mode 100644 Sign_up.html
+ create mode 100644 SobreNosotros.html
+ create mode 100644 assets/Articulos/BrokenHeart.png
+ create mode 100644 assets/Articulos/FaroTshirt.png
+ create mode 100644 assets/Articulos/Hoddieblanco.png
+ create mode 100644 assets/Articulos/Jacket.png
+ create mode 100644 assets/Articulos/Jumper.png
+ create mode 100644 assets/Articulos/OrangeJacket.png
+ create mode 100644 assets/Articulos/RedShirt.png
+ create mode 100644 assets/Articulos/Shirt.png
+ create mode 100644 assets/Articulos/Shorts.png
+ create mode 100644 assets/Articulos/Skirt.png
+ create mode 100644 assets/Articulos/Sweater.png
+ create mode 100644 assets/Articulos/T-Shirt.png
+ create mode 100644 assets/Articulos/Trousers.png
+ create mode 100644 assets/Articulos/creativeTshit.png
+ create mode 100644 assets/Facebook.png
+ create mode 100644 assets/Fondo.jpg
+ create mode 100644 assets/Inicio/Snowflake.png
+ create mode 100644 assets/Inicio/winterguy.png
+ create mode 100644 assets/Instagram.png
+ create mode 100644 assets/Microsoft Outlook.png
+ create mode 100644 assets/Remerablanca.png
+ create mode 100644 assets/Sobre nosotros/HombrePosandoAuto.png
+ create mode 100644 assets/Sobre nosotros/HotelRemeraSN.png
+ create mode 100644 assets/Sobre nosotros/blancaBasicaSobreN.png
+ create mode 100644 assets/Sobre nosotros/camperasinvierno.png
+ create mode 100644 assets/favicon_io/android-chrome-192x192.png
+ create mode 100644 assets/favicon_io/android-chrome-512x512.png
+ create mode 100644 assets/favicon_io/apple-touch-icon.png
+ create mode 100644 assets/favicon_io/favicon-16x16.png
+ create mode 100644 assets/favicon_io/favicon.ico
+ create mode 100644 assets/favicon_io/faviconn.png
+ create mode 100644 assets/favicon_io/site.webmanifest
+ create mode 100644 assets/shopkart.png
+ create mode 100644 css/style.css
+ create mode 100644 css/style.css.map
+ create mode 100644 log_In.html
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 scss/base/_reset.scss
+ create mode 100644 scss/base/_typo.scss
+ create mode 100644 scss/components/_bootstrap.scss
+ create mode 100644 scss/components/_botones.scss
+ create mode 100644 scss/layout/_footer.scss
+ create mode 100644 scss/layout/_header.scss
+ create mode 100644 scss/layout/_login.scss
+ create mode 100644 scss/layout/_main-a.scss
+ create mode 100644 scss/layout/_signup.scss
+ create mode 100644 scss/layout/_sobrenosotros.scss
+ create mode 100644 scss/layout/_ventas.scss
+ create mode 100644 scss/style.scss
+ create mode 100644 scss/utilities/_mixins.scss
+ create mode 100644 scss/utilities/_mobilefirst.scss
+ create mode 100644 scss/utilities/_variables.scss
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git log
+commit f7f7a1edd6bbb15862df84cd6ba0a4a137d6212b (HEAD -> master)
+Author: maurocaterini <maurocaterini7901@hotmail.com>
+Date:   Thu Apr 20 01:33:13 2023 -0300
+
+    Sass
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git branch Sass
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git branch
+  Sass
+* master
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (master)
+$ git checkout Sass
+Switched to branch 'Sass'
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (Sass)
+$ git commit -M Sass
+error: unknown switch `M'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u<mode>] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>)]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup [(amend|reword):]commit
+                          use autosquash formatted message to fixup or amend/reword specified commit
+    --squash <commit>     use autosquash formatted message to squash specified commit
+    --reset-author        the commit is authored by me now (used with -C/-c/--amend)
+    --trailer <trailer>   add custom trailer(s)
+    -s, --signoff         add a Signed-off-by trailer
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <mode>      how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --ahead-behind        compute full ahead/behind values
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no. (Default: all)
+    --pathspec-from-file <file>
+                          read pathspec from file
+    --pathspec-file-nul   with --pathspec-from-file, pathspec elements are separated with NUL character
+
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (Sass)
+$ git remote add origin https://github.com/Mauro7901/Mauro_Caterini_Sass_Entrega_3.git
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (Sass)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Mauro7901/Mauro_Caterini_Sass_Entrega_3.git'
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (Sass)
+$ git branch -M main
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (main)
+$ git push -u origin main
+Enumerating objects: 67, done.
+Counting objects: 100% (67/67), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (65/65), done.
+Writing objects: 100% (67/67), 2.20 MiB | 3.89 MiB/s, done.
+Total 67 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/Mauro7901/Mauro_Caterini_Sass_Entrega_3.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Maudo@DESKTOP-LPMJ4J7 MINGW64 /d/Desktop/SASS (main)
+$
