@@ -5,4 +5,17 @@
     background-color: #696f78;
     margin: 2%;
     color: aliceblue;
+    width: 50%;
+    h3{font-size: 25px;
+    margin-bottom: 5px;}
+    box-shadow: 10px 5px 5px grey;
+    li{padding-bottom: 5px};
+    input{margin: 5px;
+          border-radius: 28px;
+        height: 30px;
+     width: 100%;
+     box-shadow: 10px 5px 5px grey;
+    border-style: none;}
     .ulcard{list-style: none;}}
+
+    input:hover{ transform: scale(1.5,1.5);}

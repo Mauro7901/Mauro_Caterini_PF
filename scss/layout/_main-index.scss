@@ -1,19 +1,28 @@
 .Main_Imagen{
     display: flex;
-    background-image: url(..//assets/Inicio/winterguy.jpg);
-    height: 100%;
     width: 100%;
+    height: 100%;
+    background-image: url("../assets/Inicio/winterguy.png");
     background-size: cover;
-     .Snowflake{width: 30%;
-        height: 50%;
+    justify-content: flex-start;
+     .Snowflake{
+        width: 50vh;
+        height: 75vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
         padding-bottom: 20px;
-        backdrop-filter: blur(100px);
-        margin: 20px;
-        .Snowflake h2{background-color: aliceblue;}
-        .Snowflake p {background-color: aliceblue;
+        margin-top: 20px;
+        padding-left: 10%;
+        h2{background-color: aliceblue;}
+        p{background-color: aliceblue;
             font-size: 25px;}
+        input{border-radius: 28px;
+        height: 50px;
+         width: 100px;
+        font-size: 15px;}
             .Snowflake a input{border-radius: 28px;
                 background-color: aliceblue;}}}
+
+        input:hover{ transform: scale(2,2)}

@@ -4,6 +4,7 @@
     h1{font-size: 50px;}
 
     .grids{display: grid;
+        justify-items: center;
     grid-template-areas:
     "tarjeta1 tarjeta2"
     "tarjeta3 tarjeta4"
@@ -26,6 +27,7 @@
     .footer{grid-area: footer;
     display: flex;
     flex-direction: row;
+    width: 100%;
     padding-left: 5px;
     justify-content: center;
     gap: 25px;
@@ -37,4 +39,4 @@
 @media screen and (min-width:1024px){
     .menu{font-size: 40px;}
     h1{font-size: 100px;}
-        .Tarjeta_Item{background-color: #425470}}
+        .Tarjeta_Item{background-color: #425470;}}
